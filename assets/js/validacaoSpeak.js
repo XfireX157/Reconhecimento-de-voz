@@ -1,6 +1,5 @@
 function VerificaOChute(chute) {
     const numero = +chute
-    const amor = chute
     const darker = chute
 
     if (ChuteInvalido(numero)) {
@@ -26,17 +25,6 @@ function VerificaOChute(chute) {
     } else {
         elementChute.innerHTML += `
         <h3>O número secreto é maior <i class="fa-solid fa-arrow-up"></i></h3>
-        `
-    }
-
-
-    if (amor === Dani) {
-        elementChute.innerHTML = `
-        <div class="Container">
-         <span class="box">${chute}</span>
-         <img src="assets/Image/Una flor.jpg" class="UnaFlor">
-         <img src="assets/image/Dani.jpg" class="UnaFlor">
-        </div>
         `
     }
 

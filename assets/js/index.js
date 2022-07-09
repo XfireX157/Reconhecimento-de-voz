@@ -1,7 +1,6 @@
 
 const menorValor = 1
 const maiorValor = 100
-const Dani = "Dani eu te amo"
 const dark = "escuro"
 const light = "Claro"
 const numeroSecreto = gerarNumeroAleatorio()
