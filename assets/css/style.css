@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+:root {
+    --font-family: 'Poppins', sans-serif;
+    --bg-color: #F2D7D9;
+    --primary-color: #748DA6;
+    --effects-color: #D3CEDF;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    font-family: var(--font-family);
+}
+
+.Txt-primary {
+    font-size: 2rem;
+    border-bottom: 5px solid var(--effects-color);
+    margin-bottom: 2%;
+}
+
+.Txt-second {
+    font-size: 1.5rem;
+    box-shadow: 2px 2px solid var(--effects-color);
+}
+
+.mensagem {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1pt;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 1.7rem;
+    padding: 10px;
+    margin: 15px;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.UnaFlor {
+    width: 400px;
+    height: 400px;
+}
+
+.dark_mode {
+    background-color: #748DA6;
+    color: #fff;
+
+}
+
+.primary-box {
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
